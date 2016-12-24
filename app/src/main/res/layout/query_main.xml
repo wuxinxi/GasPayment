@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/qianghao"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/color_num"
+        android:hint="请输入枪号"
+        android:maxLength="2"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/color_record_ls"
+        android:textSize="25sp" />
+
+    <include layout="@layout/numkeyboard_view"></include>
+</LinearLayout>

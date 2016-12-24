@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="text_shoukuan">#F75B32</color>
+    <color name="text_shoukuan_select">#F76743</color>
+
+    <color name="text_setting">#4E9103</color>
+    <color name="text_setting_select">#5A931A</color>
+
+    <color name="text_bill">#2189EC</color>
+    <color name="text_bill_select">#439DF5</color>
+
+    <color name="text_else_select2">#14A165</color>
+    <color name="text_else_select">#24A76C</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="colorBg">#AEE0F8</color>
+
+    <color name="color_num_normal">#FCFCFC</color>
+    <color name="color_num">#E2E2E2</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="color_clear_normal">#FE8700</color>
+    <color name="color_clear">#F07F00</color>
+
+
+    <color name="colorClearNormal">#FFA600</color>
+    <color name="colorClear">#EAA224</color>
+
+    <!--波纹-->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half_1">#10000000</color>
+
+
+
+    <color name="color_record_ls">#7D7D7D</color>
+    <color name="color_record_s">#BABABA</color>
+    <color name="colorSgray">#E8E8E8</color>
+</resources>

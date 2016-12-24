@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.szxb.ui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/payment"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/shoukuan_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/main"
+            android:clickable="false"
+            android:drawableTop="@mipmap/icon_shoukuan"
+            android:focusable="false"
+            android:text="收款" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bill"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/payment"
+        android:background="@drawable/bill_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/main"
+            android:clickable="false"
+            android:drawableTop="@mipmap/icon_bill"
+            android:focusable="false"
+            android:text="账单" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/setting"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/payment"
+        android:layout_margin="5dp"
+        android:background="@drawable/setting_selector"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/main"
+            android:clickable="false"
+            android:drawableTop="@mipmap/icon_setting"
+            android:focusable="false"
+            android:text="设置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/else_"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/bill"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/setting"
+        android:background="@drawable/else_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/main"
+            android:clickable="false"
+            android:drawableTop="@mipmap/ic_else"
+            android:focusable="false"
+            android:text="其他" />
+    </LinearLayout>
+</RelativeLayout>

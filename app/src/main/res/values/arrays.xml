@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeRange">
+        <item>今天</item>
+        <item>昨天</item>
+        <item>本周</item>
+        <item>上周</item>
+        <item>本月</item>
+        <item>上月</item>
+        <item>请选择时间范围</item>
+    </string-array>
+</resources>
