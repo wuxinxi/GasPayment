@@ -54,7 +54,6 @@ public class QueryActivity extends AppCompatActivity {
                     tempString = qianghao.getText().toString();
                     tempString = tempString + String.valueOf(((Button) v).getText());
                     qianghao.setText(tempString);
-//                    qianghao.requestFocus();
                     qianghao.setSelection(qianghao.getText().length());
                 }
             });
